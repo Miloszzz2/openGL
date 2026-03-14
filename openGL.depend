@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1773505576 source:/home/milosz/Documents/openGL/Program.cpp
+	"Program.h"
+	<fstream>
+	<sstream>
+	<cstdio>
+	<string>
+
+1773504097 /home/milosz/Documents/openGL/Program.h
+	<string.h>
+	<string>
+	<math.h>
+	<iostream>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<vector>
+
+1717955053 /home/milosz/Downloads/freeglut-3.6.0/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1717955053 /home/milosz/Downloads/freeglut-3.6.0/include/GL/freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1717955053 /home/milosz/Downloads/freeglut-3.6.0/include/GL/freeglut_ext.h
+	<stdarg.h>
+	"freeglut_ucall.h"
+
+1717955053 /home/milosz/Downloads/freeglut-3.6.0/include/GL/freeglut_ucall.h
+	<stdarg.h>
+	<stdlib.h>
+
+1773498972 source:/home/milosz/Documents/openGL/main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1717955053 /home/milosz/Downloads/freeglut-3.6.0/include/GL/glut.h
+	"freeglut_std.h"
+
