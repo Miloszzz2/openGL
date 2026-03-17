@@ -146,13 +146,13 @@ void ProgramMPGK::stworzenieIBO()
 // Odczyt - wersja fstream
 std::string ProgramMPGK::wczytajFstream(const std::string& nazwaPliku, const std::string& sciezka) {
     std::string pelnaSciezka = sciezka + "/" + nazwaPliku;
-    std::ifstream plik(pelnaSciezka.c_str()); // .c_str() dla lepszej kompatybilności
+    std::ifstream plik(pelnaSciezka.c_str());
     std::string tresc = "";
     std::string linia = "";
 
     if (plik.is_open()) {
         while (getline(plik, linia)) {
-            tresc += linia + "\n"; // Doklejamy linię i enter
+            tresc += linia + "\n";
         }
         plik.close();
     }
@@ -177,7 +177,7 @@ std::string ProgramMPGK::wczytajFILE(const std::string& nazwaPliku, const std::s
 
     if (plik != NULL) {
         char znak;
-        while ((znak = fgetc(plik)) != EOF) { // Czytaj aż do końca pliku (End Of File)
+        while ((znak = fgetc(plik)) != EOF) {
             tresc += znak;
         }
         fclose(plik);

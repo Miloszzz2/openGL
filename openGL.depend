@@ -1,10 +1,10 @@
 # depslib dependency file v1.0
-1773507671 source:/home/milosz/Documents/openGL/Program.cpp
+1773681272 source:/home/milosz/Documents/openGL/Program.cpp
 	"Program.h"
 	<fstream>
 	<cstdio>
 
-1773507100 /home/milosz/Documents/openGL/Program.h
+1773681272 /home/milosz/Documents/openGL/Program.h
 	<string.h>
 	<string>
 	<math.h>
